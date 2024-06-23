@@ -663,22 +663,6 @@ footer a:hover {
         display: flex;
         float: inline-start;
     }
-    .titulo {
-    
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        padding: 25px 0px 30px;
-        font-family: 'Geologica', sans-serif;
-        border-top: 1px solid black;
-        font-size: 12px;
-    }
-    .titulo p {
-        
-        color: rgb(165, 165, 165);
-    }
-    
     article {
         
         background-color: var(--fundo-article);
