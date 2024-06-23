@@ -142,19 +142,7 @@ header {
     text-shadow: 5px 4px 4px rgba(55, 55, 55, 0.688);
 
 }
-.titulo {
 
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    padding: 125px 0px 30px;
-    font-family: 'Geologica', sans-serif;
-}
-.titulo p {
-    
-    color: rgb(165, 165, 165);
-}
 
 article {
     
@@ -286,48 +274,6 @@ article img, .objetivo img, .importancia img, #materiais img {
     font-size: 35px;
     text-shadow: rgba(184, 184, 184, 0.658) 1px 1px 2px;
     color: rgb(0, 0, 0);
-}
-.int-1, .int-2{
-    
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    padding-top: 30px;
-    padding-bottom: 30px;
-    
-}
-.int-1 img, .int-2 img {
-    
-    width: 70%;
-    height: 100%;
-    border-radius: 10px;
-    box-shadow: rgba(245, 245, 245, 0.289) 3px 2px 8px 0px;
-    transition: transform 0.3s ease-in-out;
-}
-.int-1 img:hover, .int-2 img:hover {
-
-    transform: scale(1.05);
-  }
-
-.int-1 figure, .int-2 figure  {
-    
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    text-align: justify;
-    width: 250px ;
-}
-.int-1 figcaption, .int-2 figcaption {
-    
-    padding: 10px;
-    font-family: 'Geologica', sans-serif;
-    
-}
-.int-1 strong, .int-2 strong {
-    
-    font-size: 20px;
-    
 }
 
 #formulario {
@@ -633,18 +579,6 @@ footer a:hover {
         align-items: center;
           
     }
-
-
-
-    .titulo h1::after {
-        content: "";
-        display: inline-block;
-        width: 40px; 
-        height: 40px; 
-        background-image: url('../Imagens/icons8-bot-50.png'); 
-        background-size: cover; 
-        margin-left: 10px;
-    }
     .inicio img {
     
         height: 70px;
@@ -873,48 +807,6 @@ footer a:hover {
         text-shadow: rgba(255, 255, 255, 0.321) 1px 1px 2px;
         color: rgb(131, 131, 131);
     }
-    .int-1, .int-2{
-        
-        display: flex;
-        flex-direction: column;
-        padding-left: 30px;
-        padding-right: 40px;
-        padding-top: 0px;
-        padding-bottom: 0px;
-        
-    }
-    .int-1 img, .int-2 img {
-        
-        width: 9em;
-        height: 100%;
-        border-radius: 10px;
-        box-shadow: rgba(245, 245, 245, 0.289) 3px 2px 8px 0px;
-        margin-bottom: 25px;
-    }
-    .int-1 figure, .int-2 figure {
-        
-        display: flex;
-        flex-direction: row;
-        justify-content: left;
-        align-items: center;
-        text-align: justify;
-        width: 100% ;
-        margin-bottom: 20px;
-    }
-    .int-1 figcaption, .int-2 figcaption {
-        
-        
-        padding: 20px;
-        font-family: 'Geologica', sans-serif;
-        font-size: 15px;
-        
-    }
-    .int-1 strong, .int-2 strong {
-        
-        font-size: 20px;
-        
-    }
-    
     #formulario {
         
         background-color: var(--fundo-form);
